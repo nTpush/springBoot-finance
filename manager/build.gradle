@@ -1,0 +1,8 @@
+dependencies {
+    compile project(":entity")
+    compile project(":api")
+    compile project(":util")
+    compile project(":swagger")
+    compile libs.mysql
+    compile libs.jsonrpc
+}
